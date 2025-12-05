@@ -23,7 +23,7 @@ Users can create tasks with:
 - Deadline (KST — YYYY-MM-DD HH:MM)
 
 **Screenshot:**  
-![Add Task Window](Add_Task_Window.png)
+![Add Task Window](screenshots/Add_Task_Window.png)
 
 ---
 
@@ -38,7 +38,7 @@ Tasks are displayed with:
 - Expired status
 
 **Screenshot:**  
-![Main Window](Main_Window.png)
+![Main Window](screenshots/Main_Window.png)
 
 ---
 
@@ -47,7 +47,7 @@ Tasks are displayed with:
 Selecting a task and clicking **Done** marks it as completed.
 
 **Screenshot:**  
-![Selecting Task for Done](Selecting_a_Task_for_Done.png)
+![Selecting Task for Done](screenshots/Selecting_a_Task_for_Done.png)
 
 ---
 
@@ -56,7 +56,7 @@ Selecting a task and clicking **Done** marks it as completed.
 Users can delete any selected task using the Delete button.
 
 **Screenshot:**  
-![Selecting Task for Delete](Selecting_a_Task_for_Delete.png)
+![Selecting Task for Delete](screenshots/Selecting_a_Task_for_Delete.png)
 
 ---
 
@@ -70,7 +70,7 @@ When the time is up, the console prints:
 ```
 
 **Screenshot:**  
-![Deadline Alert in Terminal](Deadline_Alert_in_Terminal.png)
+![Deadline Alert in Terminal](screenshots/Deadline_Alert_in_Terminal.png)
 
 ---
 
@@ -86,7 +86,7 @@ todo_project/
 ```
 
 **Screenshot:**  
-![Project Folder Structure](Project_Folder_Structure.png)
+![Project Folder Structure](screenshots/Project_Folder_Structure.png)
 
 ---
 
@@ -120,7 +120,7 @@ python todo_gui.py
 ```
 
 **Screenshot:**  
-![First Launch](First_Launch.png)
+![First Launch](screenshots/First_Launch.png)
 
 ---
 
@@ -131,8 +131,8 @@ python todo_gui.py
 Click **Add**, fill the fields, and press Save.
 
 **Screenshots:**  
-![Creating a New Task](Creating_a_New_Task.png)  
-![Creating a New Task 2](Creating_a_New_Task2.png)
+![Creating a New Task](screenshots/Creating_a_New_Task.png)  
+![Creating a New Task 2](screenshots/Creating_a_New_Task2.png)
 
 ---
 
@@ -141,7 +141,7 @@ Click **Add**, fill the fields, and press Save.
 Select the task → click **Done**.
 
 **Screenshot:**  
-![Marked as Done](Marked_as_Done.png)
+![Marked as Done](screenshots/Marked_as_Done.png)
 
 ---
 
@@ -150,7 +150,7 @@ Select the task → click **Done**.
 Select → click **Delete**.
 
 **Screenshot:**  
-![Deleted Task](Deleted_Task.png)
+![Deleted Task](screenshots/Deleted_Task.png)
 
 ---
 
@@ -159,7 +159,7 @@ Select → click **Delete**.
 If deadline is reached, console prints an alert.
 
 **Screenshot:**  
-![Deadline Alert](Deadline_Alert.png)
+![Deadline Alert](screenshots/Deadline_Alert.png)
 
 ---
 
@@ -169,7 +169,7 @@ All tasks are saved in `tasks.dat` using **pickle**.
 When reopening the program, saved tasks are loaded automatically.
 
 **Screenshot:**  
-![Persistence After Restart](Persistence_After_Restart.png)
+![Persistence After Restart](screenshots/Persistence_After_Restart.png)
 
 ---
 
