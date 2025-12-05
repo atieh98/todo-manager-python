@@ -211,7 +211,19 @@ __pycache__/
 ```
 
 ---
+---
 
+## 🤖 AI Assistance & Acknowledgements
+
+The core architecture and initial logic of this project are based on the author's previous work (a command-line task manager). During the development of the GUI and background services, an AI tool (specifically [**ChatGPT**]) was utilized for optimizing and ensuring the robustness of specific advanced components.
+
+Key areas where AI assistance was leveraged include:
+
+1.  **Timezone and Timestamp Conversion:** Consulting the AI tool to confirm the correct implementation of `pytz` and `datetime` functions for accurately converting user-input time (KST) into a valid, localized Unix timestamp, ensuring reliable deadline tracking.
+2.  **Background Reminder Threading:** Ensuring the multi-threaded implementation (`threading.Thread`) used to manage deadline alerts was configured correctly (e.g., using `daemon=True` and proper time calculation) to run in the background without freezing the main Tkinter GUI.
+3.  **Thread Safety and Locking:** Validating the correct use of `threading.Lock` within the `TodoManager` to protect the shared data file (`tasks.dat`) from corruption during simultaneous read/write operations by different threads.
+
+---
 ## 🔍 Optional Future Improvements
 
 - Edit tasks
